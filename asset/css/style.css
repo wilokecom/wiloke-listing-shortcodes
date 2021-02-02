@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+    #wilcity-single-listing-content .container {
+      width: 1400px !important;
+    }
+  
+    ul.wil-icon-list.wiloke-list-features-new-version li {
+      width: calc(100%/3);
+    }
+  
+    div.listing-detail_row__2UU6R.clearfix div.wil-colSmall.wilcity-js-toggle-group {
+      width: 33.33333%;
+    }
+    div.listing-detail_row__2UU6R.clearfix div.wil-colLarge.wil-sidebarLeft {
+      width: calc(100% - 33.33333%);
+    }
+  }
+  ul.wil-icon-list.wiloke-list-features-new-version {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul.wil-icon-list.wiloke-list-features-new-version li {
+    list-style: none;
+  }
+  ul.wil-icon-list.wiloke-list-features-new-version li i {
+    color: #5dc57b;
+  }
