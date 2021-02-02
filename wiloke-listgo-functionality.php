@@ -12,6 +12,9 @@
 if ( !defined('ABSPATH') ){
     die();
 }
+define('WILOKE_LISTING_SHORTCODES_VER', 1.2);
 
+define('WILOKE_LISTING_SHORTCODES_URI', plugin_dir_url(__FILE__));
 include plugin_dir_path(__FILE__) . 'vendor/autoload.php';
 new WilokeListgoShortcode\Shortcodes\Shortcodes();
+new WilokeListgoShortcode\Controllers\EnqueueScriptController();
