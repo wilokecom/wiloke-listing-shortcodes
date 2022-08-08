@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Wiloke Listing Shortcode
+ * Plugin Name: Wiloke Listgo Shortcode
  * Plugin URI: https://wiloke.com
  * Author: Wiloke
  * Author URI: https://wiloke.com
